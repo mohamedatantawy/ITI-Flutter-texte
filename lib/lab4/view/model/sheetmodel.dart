@@ -1,7 +1,6 @@
 class Sheetmodel {
   final String title;
-   bool isactive;
+  bool isactive;
 
   Sheetmodel({required this.title, required this.isactive});
-  
 }

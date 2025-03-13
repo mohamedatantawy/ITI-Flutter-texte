@@ -1,4 +1,4 @@
-import 'package:app8/lap1/View/widget/homeviewbody.dart';
+import 'package:app8/lab1/View/widget/homeviewbody.dart';
 import 'package:flutter/material.dart';
 
 class Homeview extends StatelessWidget {

@@ -1,6 +1,6 @@
-import 'package:app8/lap1/View/widget/dotactive.dart';
-import 'package:app8/lap1/View/widget/models/cardmodels.dart';
-import 'package:app8/lap1/View/widget/models/categersmodels.dart';
+import 'package:app8/lab1/View/widget/dotactive.dart';
+import 'package:app8/lab1/View/widget/models/cardmodels.dart';
+import 'package:app8/lab1/View/widget/models/categersmodels.dart';
 import 'package:expandable_page_view/expandable_page_view.dart';
 import 'package:flutter/material.dart';
 
@@ -12,11 +12,11 @@ class Homeviewbody extends StatefulWidget {
 }
 
 class _HomeviewbodyState extends State<Homeviewbody> {
-  final List<Categersmodels> categersmodels = const [
-    Categersmodels(icon: Icons.send, title: 'Send'),
-    Categersmodels(icon: Icons.receipt, title: 'receipt'),
-    Categersmodels(icon: Icons.payment, title: 'payment'),
-    Categersmodels(icon: Icons.phone, title: 'phone'),
+  final List<Categersmodelslab1> categersmodels = const [
+    Categersmodelslab1(icon: Icons.send, title: 'Send'),
+    Categersmodelslab1(icon: Icons.receipt, title: 'receipt'),
+    Categersmodelslab1(icon: Icons.payment, title: 'payment'),
+    Categersmodelslab1(icon: Icons.phone, title: 'phone'),
   ];
 
   final List<Cardmodels> cardmodels = const [
@@ -123,7 +123,7 @@ class _HomeviewbodyState extends State<Homeviewbody> {
 
 class categersitem extends StatelessWidget {
   const categersitem({super.key, required this.categersmodels});
-  final Categersmodels categersmodels;
+  final Categersmodelslab1 categersmodels;
   @override
   Widget build(BuildContext context) {
     return Column(

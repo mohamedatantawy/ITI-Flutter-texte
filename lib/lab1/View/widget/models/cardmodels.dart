@@ -6,6 +6,10 @@ class Cardmodels {
   final IconData icon;
   final String name;
 
- const  Cardmodels({required this.title, required this.amount, required this.icon, required this.name});
-
+  const Cardmodels({
+    required this.title,
+    required this.amount,
+    required this.icon,
+    required this.name,
+  });
 }

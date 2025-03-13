@@ -48,7 +48,7 @@ class _homeodyState extends State<homeody> {
           builder: (context, setState) {
             return Container(
               //  width: double.infinity,
-             // height: 300,
+              // height: 300,
               padding: EdgeInsets.all(20),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,

@@ -2,6 +2,18 @@
 class Assets {
   Assets._();
   
+  /// Assets for assetsArrow
+  /// asset/arrow.png
+  static const String assetsArrow = "asset/arrow.png";
+
+  /// Assets for assetsArrowsf
+  /// asset/arrowsf.svg
+  static const String assetsArrowsf = "asset/arrowsf.svg";
+
+  /// Assets for assetsBr
+  /// asset/br.png
+  static const String assetsBr = "asset/br.png";
+
   /// Assets for assetsDice1
   /// asset/dice1.png
   static const String assetsDice1 = "asset/dice1.png";
@@ -25,5 +37,25 @@ class Assets {
   /// Assets for assetsDice6
   /// asset/dice6.png
   static const String assetsDice6 = "asset/dice6.png";
+
+  /// Assets for assetsFontLeagueSpartanLight
+  /// asset/font/LeagueSpartan-Light.ttf
+  static const String assetsFontLeagueSpartanLight = "asset/font/LeagueSpartan-Light.ttf";
+
+  /// Assets for assetsFontLeagueSpartanRegular
+  /// asset/font/LeagueSpartan-Regular.ttf
+  static const String assetsFontLeagueSpartanRegular = "asset/font/LeagueSpartan-Regular.ttf";
+
+  /// Assets for assetsFontPoppinsRegular
+  /// asset/font/Poppins-Regular.ttf
+  static const String assetsFontPoppinsRegular = "asset/font/Poppins-Regular.ttf";
+
+  /// Assets for assetsFontPoppinsSemiBold
+  /// asset/font/Poppins-SemiBold.ttf
+  static const String assetsFontPoppinsSemiBold = "asset/font/Poppins-SemiBold.ttf";
+
+  /// Assets for assetsHeart
+  /// asset/heart.svg
+  static const String assetsHeart = "asset/heart.svg";
 }
 

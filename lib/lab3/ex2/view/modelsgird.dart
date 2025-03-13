@@ -4,5 +4,10 @@ class Modelsgird {
   final String price;
   final String subtitle;
 
-  Modelsgird({required this.image, required this.title, required this.price, required this.subtitle});
+  Modelsgird({
+    required this.image,
+    required this.title,
+    required this.price,
+    required this.subtitle,
+  });
 }

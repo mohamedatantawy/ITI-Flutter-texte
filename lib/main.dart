@@ -1,21 +1,24 @@
+import 'package:app8/lab1/View/widget/models/categersmodels.dart';
+import 'package:app8/lab5/api/ApiService.dart';
+import 'package:app8/lab5/view/homeview.dart';
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 
-import 'lab4/View/homeView.dart';
-import 'package:app8/lab4/ex1/homeView2.dart';
-
 void main() {
-  runApp(const MyApp());
+ Apiservice(Dio()).fetchcagters();
+  // Apiservice(Dio()).gettype();
+  runApp( MyApp(
+    
+  ));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
+  const MyApp({super.key,
+  // required this.categersmodels
+   });
+ // final List<Categersmodels> categersmodels;
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home:  
-   // homeody(),
-     Homeview2()
-     
-     );
+    return MaterialApp(home: Homeview());
   }
 }
